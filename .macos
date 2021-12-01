@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# sacrifice spotlight indexing to save on battery and performance
+# TODO for automator or shortcuts to disable enable/disable charger/battery power
+sudo mdutil -a -i off
+
+# Disable the sound effects on boot
+sudo nvram SystemAudioVolume=" "
